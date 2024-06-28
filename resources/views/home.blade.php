@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>Laravel Comics</h1>
+    <h1>Laravel Comics Home</h1>
 </body>
 
 </html>

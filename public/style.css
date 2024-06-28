@@ -14,3 +14,8 @@ body {
     width: 75%;
     margin: 0 auto;
 }
+
+.card {
+    width: calc(100% / 5 - 1rem);
+    margin: 0 0.5rem;
+}
