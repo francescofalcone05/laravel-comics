@@ -16,7 +16,7 @@ Passate al livello successivo usando uno store, avrete bisogno di:
 creare il file relativo, che farà return di un array associativo con tutti i dati. Rispetto a Vue cambia solo la sintassi.
 importare il file, dove necessario, usando config("nomefile"), ad esempio nelle rotte
 pushate
-Infine sostituite il vostro store con quello che trovate in allegato e.... poi cosa bisogna fare? :githubparrot:
+Infine sostituite il vostro store con quello che trovate in allegato e.... poi cosa bisogna fare? 
 
 CAPITOLO 3: E VISSERO FELICI E INTERPOLATI
 Realizzate una vista about che responda ad una rotta. Potete inserire qui quello che preferite.

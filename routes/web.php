@@ -12,14 +12,7 @@ Route::get('/home', function () {
 
 Route::get('/list', function () {
 
-    $data = [
-        "paragraph" => [
-            "first" => "Questa",
-            "second" => "e` una",
-            "third" => "prova",
-        ]
-
-    ];
+    $data = config("store");
 
     return view('card', $data);
 });
