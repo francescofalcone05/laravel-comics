@@ -10,7 +10,13 @@
 </head>
 
 <body>
-    <h1>Laravel Comics Home</h1>
+    <header>
+        @include('partials/header')
+    </header>
+
+    <main>
+        @include('card')
+    </main>
 </body>
 
 </html>
