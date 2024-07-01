@@ -3,7 +3,7 @@
 @section('title', 'Hompage')
 
 @section('content')
-
-    <p>questa e` l'hompage senza contenuto</p>
-
+    <div class="container">
+        <p>questa e` l'HOMPAGE senza contenuto</p>
+    </div>
 @endsection

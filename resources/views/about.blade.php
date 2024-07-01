@@ -3,7 +3,7 @@
 @section('title', 'About us')
 
 @section('content')
-
-    <p>questa e` about us senza contenuto</p>
-
+    <div class="container">
+        <p>questa e` about us senza contenuto</p>
+    </div>
 @endsection

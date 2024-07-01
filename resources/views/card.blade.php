@@ -5,9 +5,11 @@
 @section('content')
 
     <div class="container">
-        @foreach ($list as $element)
+        @foreach ($listFumetti as $indice => $element)
             <div class="card">
-                <img src="{{ $element['thumb'] }}" alt="">
+                <a href="/list/{{ $indice }}">
+                    <img src="{{ $element['thumb'] }}" alt="">
+                </a>
                 <h3>{{ $element['series'] }}</h3>
             </div>
         @endforeach

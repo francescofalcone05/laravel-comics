@@ -9,18 +9,22 @@
 </head>
 
 <body>
+    <section>
 
-    <div class="footer-container">
-        <div>
-            <a href="{{ route('about-us') }}">ABOUT US</a>
+        <div class="footer-container">
+            <div>
+                <a href="{{ route('about-us') }}">ABOUT US</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+            </div>
         </div>
-        <div>
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-brands fa-square-whatsapp"></i>
-        </div>
-    </div>
+
+    </section>
+
 
 </body>
 
