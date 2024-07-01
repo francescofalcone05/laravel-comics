@@ -27,13 +27,19 @@ Route::get('/list', function () {
 
 Route::get('/list/{indice}', function ($indice) {
 
-    $fumetti = config("store.listFumetti");
-    $fumetto = $fumetti[$indice];
-    $singoloFumetto = [
-        "fumetto" => $fumetto
-    ];
+    //controllo se indice sia un valore valido 
+    if (!is_numeric($indice) || $indice < 0 || $indice > count(config("store.listFumetti"))) {
+        abort(404);
+    } else {
 
-    return view('card-details', $singoloFumetto);
+        $fumetti = config("store.listFumetti");
+        $fumetto = $fumetti[$indice];
+        $singoloFumetto = [
+            "fumetto" => $fumetto
+        ];
+
+        return view('card-details', $singoloFumetto);
+    }
 })->name('comics-list-details');
 
 Route::get('/about', function () {
