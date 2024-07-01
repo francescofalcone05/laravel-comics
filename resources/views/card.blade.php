@@ -7,7 +7,7 @@
     <div class="container">
         @foreach ($listFumetti as $indice => $element)
             <div class="card">
-                <a href="/list/{{ $indice }}">
+                <a href="{{ route('comics-list-details', ['indice' => $indice]) }}">
                     <img src="{{ $element['thumb'] }}" alt="">
                 </a>
                 <h3>{{ $element['series'] }}</h3>
