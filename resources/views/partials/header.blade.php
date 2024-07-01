@@ -10,7 +10,17 @@
 <body>
 
     <div class="header-container">
-        <h1>Questo e` il mio header importato dai partials</h1>
+        <div>
+            <img src="/comic-art-logo.jpg" alt="">
+        </div>
+        <div>
+            @if (Route::currentRouteName() !== 'hompage')
+                <a href="{{ route('hompage') }}">HOME</a>
+            @endif
+            @if (Route::currentRouteName() !== 'comics-list')
+                <a href="{{ route('comics-list') }}">COMICS</a>
+            @endif
+        </div>
     </div>
 
 </body>

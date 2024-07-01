@@ -9,7 +9,8 @@ Route::get('/', function () {
     ];
 
     return view('home', $data);
-});
+})->name('hompage');
+
 
 Route::get('/home', function () {
 
@@ -18,7 +19,8 @@ Route::get('/home', function () {
     ];
 
     return view('home', $data);
-});
+})->name('hompage');
+
 
 Route::get('/list', function () {
 
@@ -27,8 +29,9 @@ Route::get('/list', function () {
     ];
 
     return view('card', $data);
-});
+})->name('comics-list');
+
 
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about-us');

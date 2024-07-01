@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layout.app')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
+@section('title', 'About us')
 
-<body>
-    <h1>Il file about funziona</h1>
-</body>
+@section('content')
 
-</html>
+    <p>questa e` about us senza contenuto</p>
+
+@endsection
