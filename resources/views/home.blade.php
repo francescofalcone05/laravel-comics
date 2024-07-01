@@ -12,6 +12,8 @@
 <body>
     <header>
         @include('partials/header')
+        {{-- provo ad accedere ad un altra pagina tramite il link --}}
+        <a href="{{ url('/about') }}">go to this page</a>
     </header>
 
     <main>
